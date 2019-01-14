@@ -5,4 +5,4 @@ RUN curl https://php.codecasts.rocks/php-alpine.rsa.pub -o /etc/apk/keys/php-alp
     apk --no-cache --progress add \
     php7-fpm@php php7-cli@php
 
-COPY docker-files/php-fpm/config /
+COPY config /
